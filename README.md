@@ -1,4 +1,4 @@
-"""
+
 A LL(1) recursive descent parser for validating simple expressions.
 
 grammar rules (non-terminals) in EBNF 
@@ -13,7 +13,7 @@ rules, and they automatically handle the nested compositions of terms
 with multi-level priority brackets. 
 
 ----------------------------------------------------------------------------
-Usage (Refer to the prompt for more examples - both positive and negative cases)
+Usage (more cases below)
 
 r = recDecsent('7 - 17')
 print(r.validate()) # will print True as '7 - 17' is a valid expression
@@ -41,11 +41,7 @@ Examples of invalid expressions:
 •	2 - 4 and >< 300
 •	>= 5) nand < 10
 
-"""
 
-
-
-"""
 # sample test code
 r = recDescent('5 - 100')
 print(r.validate()) # should return True
@@ -54,7 +50,7 @@ r = recDescent('5 - ')
 print(r.validate()) # should return False
 
 
-# thats so true
+# TRUE
 r = recDescent('7 - 17')
 print(r.validate())
 
@@ -101,4 +97,3 @@ print(r.validate())
 
 r = recDescent('>= 5) nand < 10')
 print(r.validate())
-"""
