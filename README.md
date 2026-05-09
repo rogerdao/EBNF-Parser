@@ -22,24 +22,24 @@ r = recDecsent('7 - ')
 print(r.validate()) # will print False as '7 - ' is an invalid expression
 
 ----------------------------------------------------------------------------
-Follows are examples of valid expressions based on the expression patterns specified above:
-•	7 - 17
-•	> 90
-•	(1 - 100 and not 50) or > 200
-•	(7 - 17) or > 90
-•	> 50 or == 20
-•	1 - 100 and != 50
+Follows are examples of valid expressions based on the expression patterns specified above:  
+•	7 - 17  
+•	> 90  
+•	(1 - 100 and not 50) or > 200  
+•	(7 - 17) or > 90  
+•	> 50 or == 20  
+•	1 - 100 and != 50  
 •	(5 - 100) and (not 50) or (>= 130 or (2 - 4))
 
-Examples of invalid expressions:
-•	>
-•	2 - - 4
-•	- 7
-•	7 -
-•	= 6
-•	(!= 5) and
-•	2 - 4 and >< 300
-•	>= 5) nand < 10
+Examples of invalid expressions:  
+•	>  
+•	2 - - 4  
+•	- 7  
+•	7 -  
+•	= 6  
+•	(!= 5) and  
+•	2 - 4 and >< 300  
+•	>= 5) nand < 10  
 
 
 # sample test code
